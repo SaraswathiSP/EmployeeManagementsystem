@@ -1,0 +1,67 @@
+.add_employee{
+    display: flex;
+    justify-content: center;
+}
+
+.add_employee_container{
+    margin-top:20px;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    text-align: start;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    width:60%;
+}
+
+.heading{
+    font-size: 25px;
+    text-align: center;
+}
+
+.employee-data{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input{
+    height: 40px;
+    width:95%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.employee_add_button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 18px 18px 18px 18px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: #036b11;
+    height: 42px;
+    width:160px;
+    border-radius: 8px;
+    color:#fff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.select{
+    margin-top: 15px;
+    height:39px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+    width:95%;
+    padding:0 25 0 25;
+   
+    box-sizing: border-box;
+}
+

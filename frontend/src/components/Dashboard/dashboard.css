@@ -1,0 +1,87 @@
+.container{
+    height: 100vh;
+}
+
+.dashboard-containers{
+    display: flex;
+}
+
+.left-navbar{
+    min-width: 18vw;
+    padding:10px;
+    background-color: #082f49;
+    min-height: 130vh;
+}
+
+.dashboard-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   list-style: none;
+}
+
+.section{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    color:#f5edf9;
+    
+}
+.icon{
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.section:hover{
+    background-color: #f5edf9;
+    min-width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    padding:10px;
+   color: #12416a !important;
+}
+
+.section-head{
+    text-decoration: none;
+    color:#f5edf9;
+    margin-left: 25px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-name{
+    text-decoration: none;
+    color:#f5edf9;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.section:hover .icon,
+.section:hover .section-name {
+  color: #12416a; /* Color change when the section is hovered */
+}
+
+.right-container{
+    height: 100vh;
+    width:85vw;
+}
+
+.header{
+    box-shadow:
+    2px 0px 80px rgba(0, 0, 0, 0.07);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading{
+    color:#0a0839;
+    font-size: 20px;
+}

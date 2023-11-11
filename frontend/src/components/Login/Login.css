@@ -8,7 +8,7 @@
 
 }
 
-.login-heading{
+.admin-heading{
 
     font-size: 45px;
     font-family: "Roboto", "Helvetica Neue",;
@@ -35,7 +35,7 @@
 
 }
 
-.login-button{
+.admin-login{
     background-color: teal;
     height:45px;
     margin-top: 15px;

@@ -1,0 +1,49 @@
+.home__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.subcontainer__1 {
+    padding: 20px;
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+    box-shadow:
+        5px 5px 22px rgba(0, 0, 0, 0.03);
+}
+
+
+.del__button {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+    width: 80px;
+    background-color: #d893a3;
+    color: #b30021;
+    border: none;
+    cursor: pointer;
+}
+
+.edit__container {
+    padding: .4rem;
+    margin-right: 10px;
+    border-radius: 2rem;
+    text-align: center;
+    width: 80px;
+    background-color: #86e49d;
+    border: none;
+    cursor: pointer;
+
+
+}
