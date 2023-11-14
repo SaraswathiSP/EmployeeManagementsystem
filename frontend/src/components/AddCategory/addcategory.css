@@ -50,9 +50,10 @@
     box-sizing: border-box;
     background-color: #036b11;
     height: 42px;
-    width:160px;
+    min-width:160px;
     border-radius: 8px;
     color:#fff;
     text-align: center;
     cursor: pointer;
+    border:none
 }

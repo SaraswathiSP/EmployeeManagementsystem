@@ -64,7 +64,7 @@ const Home = () => {
         <div className='subcontainer__1 shadow' style={{backgroundColor:"#fee2e2"}}>
           <RiAdminFill style={{height:60 , width:80, color:"#f87171"}}/>
           <>
-          <h2 style={{color:"#1c1917"}}>Admin</h2>
+          <h2 style={{color:"#1c1917"}}>Admins</h2>
           <h5>Total: {adminTotal}</h5>
           </>
         </div>
@@ -76,10 +76,10 @@ const Home = () => {
         </div>
         <div className='subcontainer__1 shadow' style={{backgroundColor:"#fef9c3"}}>
         
-        <img style={{height:60, width:80, borderRadius: '200px' }} src="https://res.cloudinary.com/dg0telgxq/image/upload/v1698563065/2e7c0ce5d32bdd31ed25fc52e0f0fded_ohypbx.jpg" at=""/>
+        <img style={{height:60, width:80, borderRadius: '200px' }} src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" at=""/>
 
           <h2 style={{color:"#1c1917"}}>Salary</h2>
-          <h5>Total: {salaryTotal}</h5>
+          <h5>Total: ${salaryTotal}</h5>
         </div>
       </div>
       <div className='container__2'>

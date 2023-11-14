@@ -26,14 +26,14 @@ const AddCategory = () => {
     return (
         <div className='add_category'>
             <div className='add_category_container'>
-                <h2 className=''>Add Category</h2>
+                <h2 className=''>Add Department</h2>
                 <form onSubmit={handleSubmit}>
                     <div className='category-data'>
-                        <label className='label' htmlFor='category'><strong>Category:</strong></label>
+                        <label className='label' htmlFor='category'><strong>Department:</strong></label>
                         <input className='input' type="text" name="category" placeholder='Enter Category...'
                             onChange={(e) => setCategory(e.target.value)} />
                     </div>
-                    <button className='category_add_button'>Add Category</button>
+                    <button className='category_add_button'>Add Department</button>
                 </form>
             </div>
         </div>

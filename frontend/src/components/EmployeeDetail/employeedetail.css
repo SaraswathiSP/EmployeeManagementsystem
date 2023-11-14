@@ -1,0 +1,30 @@
+.header{
+    box-shadow:
+    2px 0px 80px rgba(0, 0, 0, 0.07);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading{
+    color:#0a0839;
+    font-size: 20px;
+}
+
+.employee_cont{
+    width: 400px;
+    height: 400px;
+}
+
+.logout-btn {
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    color:#fff;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    background-color: red;
+
+  }
+  
+ 

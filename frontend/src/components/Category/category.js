@@ -21,9 +21,9 @@ const Category = () => {
   return (
     <div className='category-container'> 
         <div className='container_12'>
-            <h3 className='category-heading'>Category List</h3>
+            <h3 className='category-heading'>Department List</h3>
         </div>
-        <Link to = '/dashboard/add_category' className='add_button'>Add Category</Link>
+        <Link to = '/dashboard/add_category' className='add_button'>Add Department</Link>
         <div className='table-container'>
             <table className='table'>
                 <thead>

@@ -112,7 +112,7 @@ const AddEmployee = () => {
                     </div>
 
                     <div className='employee-data'>
-                        <label className='label' htmlFor='category'>Category</label>
+                        <label className='label' htmlFor='category'>Department</label>
                         <select name="category" id="category" className="select"
                             onChange={(e) => setEmployee({ ...employee, category_id: e.target.value })}>
                             {category.map((category) => {

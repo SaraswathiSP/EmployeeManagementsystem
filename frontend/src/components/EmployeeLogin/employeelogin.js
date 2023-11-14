@@ -23,12 +23,12 @@ const EmployeeLogin = () => {
     console.log(err)
     setErrors(err);
 
-   
+
       axios.post("htt7p://localhost:3007/employee_login",values)
       .then(result =>{
         if(result.data = "Success"){
           localStorage.setItem("valid", true)
-        
+
           navigate('/employee_detail/'+result.data.id)
         }else{
           alert("No record Exists")
@@ -37,7 +37,7 @@ const EmployeeLogin = () => {
       .catch(err => console.log(err))
     }
 
-  
+
 
   console.log(values)
   return (
@@ -49,7 +49,7 @@ const EmployeeLogin = () => {
         <input onChange={handleInput} required  name="password" className='input' type="password" placeholder='password'/>
         {errors.password!==undefined && <p className='err-msg'>{errors.password}</p>}
         <button type="submit" className='login-button'>Login</button>
-        
+
     </form>
 </div>
   )

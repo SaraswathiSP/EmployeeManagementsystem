@@ -105,7 +105,7 @@ console.log(employee)
                   <th>Department</th>
                   <th>Contact</th>
                   <th>Date of joining</th>
-                  <th>Salary</th>
+                  <th>Salary($)</th>
                   <th>Action</th>
                 </tr>
               </thead>

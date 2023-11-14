@@ -42,7 +42,7 @@ const Dashboard = () => {
               </li>
               <li className='section'>
                 <BiCategoryAlt className='icon'/>
-                <Link className='section-name' to="/dashboard/category">Category</Link>
+                <Link className='section-name' to="/dashboard/category">Departments</Link>
               </li>
               <li className='section'>
                 <BsPerson className='icon'/>
